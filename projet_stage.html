@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+		<!--Meta tags--> 
+		<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="author" content="Chloé Josse">
+        <title>Projet stage</title>
+
+		<!--CSS--> 
+			<!--Main Stylesheet : 1920x1080 -->
+				<link rel="stylesheet" type="text/css" href="css/style-realisations.css" media="screen and (max-width: 1920px)" media="screen and (min-width: 1281px)">
+				<link rel="stylesheet" type="text/css" href="css/style-realisations-small-screen.css" media="screen and (max-width: 1600px)">
+				<link rel="stylesheet" type="text/css" href="css/style-realisations-tablet.css" media="screen and (max-width: 1200px)">
+				<link rel="stylesheet" type="text/css" href="css/style-realisations-phone.css" media="screen and (max-width: 720px)">
+	</head>
+    
+	<body>
+		<!--Titre-->
+		<div class="transition">Transition</div>
+		
+		<div class="titre-stage">
+			<p>Projet de stage - Générateur de tension triphasé</p>
+		</div>
+		
+		<!--Tableaux d'informations-->
+		<div id="tableau-information-stage" class="tableau-information-stage">
+			<div class="tableau-information-stage-gauche">
+				<p>Cadre : stage de 1ère année de BTS SNEC
+				<br>Date : mai - juillet 2022 (6 semaines)
+				<br>Participants au projet : 1</p></div>
+			<div class="tableau-information-stage-milieu">
+				<p>Langages utilisés : C(arduino)
+				<br>Technologies utilisées : Arduino Uno
+				<br>Logiciels utilisés : Arduino IDE, Proteus<p></div>
+			<div class="tableau-information-stage-droite">
+				<p>Documents :
+				<br>Mon <a href="file:///D:/BTS%202/FHS/Portfolio/Code/img/stage/Rapport%20de%20stage%20Chlo%C3%A9%20Josse%20BTS%20SNEC.pdf" target="_blank">rapport de stage</a>
+				<br>Ma <a href="file:///D:/BTS%202/FHS/Portfolio/Code/img/stage/Soutenance%20de%20stage.pdf" target="_blank">soutenance de stage</a>		
+			</div>	
+		</div>
+		<!--Description-->
+		<div class="desciption-stage">
+			<p>J’ai réalisé mon stage de 1ère année de BTS SN au sein d’ALLTRONIC, une entreprise de métrologie et de maintenance électronique au sud de Rennes.</p>
+			<p>Lors de ce stage je me suis vu confié le projet de réaliser un générateur de tension triphasé ayant pour objectif de contrôler les testeurs de rotation de stage.</p>
+			<p>Pour cela, j’ai utilisé une arduino UNO, des composants électroniques usuels tel que des résistances, des condensateurs et des transistors, des amplificateurs opérationnels comme le TL081, ainsi que des transformateurs.</p>
+			<p>J’ai généré trois signaux carré grâce à mon arduino uno, puis il a fallu transformer ces signaux carrés et sinusoïdes : j’ai donc utilisé 3 filtres RC sur chaque signal. J’ai ensuite amplifié en tension et en intensité les trois signaux car les valeurs en sortie du filtre RC ne permettant pas l’utilisation d’un transformateur pour passer dans des tensions plus important. Cela est nécessaire car les testeurs de rotation de phase ont une tension nominale de 40 à 690V, ce que signifie que mes trois signaux doivent être dans cette gamme de tension pour les testeurs de rotation de phase les détectent. Il en va de même pour l’intensité, celle si n’était pas assez importante pour que les transformateurs transmettent correctement les signaux.</p>
+			<p>Pour en savoir plus, vous pouvez consulter mon rapport de stage.</p>
+		</div>
+
+		<!--Photos-->
+		<div id="photo-stage" class="photo-stage">
+			<nav id="photo-stage-ligne1">
+				<ul>
+					<li class="photo-stage">
+						<div class="testeur-rota1">
+							<div class="img-stage">
+								<img src="img/stage/testeur-rota.png" width="100%">
+							</div>
+							<div class="texte-stage">
+								<p>Testeur de rotation de phase</p>
+							</div>
+						</div>
+					</li>
+					<li class="photo-stage">
+						<div class="testeur-rota2">
+							<div class="img-stage">
+								<img src="img/stage/sens-horaire.jpg" width="100%">
+							</div>
+							<div class="texte-stage">
+								<p>Fonctionnement dans le sens horaire</p>
+							</div>
+						</div>
+					</li>
+					<li class="photo-stage">
+						<div class="testeur-rota3">
+							<div class="img-stage">
+								<img src="img/stage/sens-anti-horaire.jpg" width="100%">
+							</div>
+							<div class="texte-stage">
+								<p>Fonctionnement dans le sens anti-horaire</p>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</nav>
+			<nav id="photo-stage-ligne2">
+				<ul>
+					<li class="photo-stage">
+						<div class="filtre-rc">
+							<div class="img-stage">
+								<img src="img/stage/filtre-rc.jpg" width="100%">
+							</div>
+							<div class="texte-stage">
+								<p>Filtre RC</p>
+							</div>
+						</div>
+					</li>
+					<li class="photo-stage">
+						<div class="ampli">
+							<div class="img-stage">
+								<img src="img/stage/ampli.jpg" width="100%">
+							</div>
+							<div class="texte-stage">
+								<p>Amplification de tension</p>
+							</div>
+						</div>
+					</li>
+					<li class="photo-stage">
+						<div class="transistor">
+							<div class="img-stage">
+								<img src="img/stage/transistor.jpg" width="100%">
+							</div>
+							<div class="texte-stage">
+								<p>Amplificaion d'intensité</p>
+							</div>
+						</div>
+					</li>
+					<li class="photo-stage">
+						<div class="transformateur">
+							<div class="img-stage">
+								<img src="img/stage/transformateur.jpg" width="100%">
+							</div>
+							<div class="texte-stage">
+								<p>Transformateur</p>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</nav>
+		</div>
+		
+		
+		
+		<!--Pied de page-->
+		<footer>
+			<p>
+				Copyright &copy; Chloé Josse - All rights reserved
+			</p>
+		</footer>
+		<div class="transition">Transition</div>
+	</body>
+	
+</html>

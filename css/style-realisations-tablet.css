@@ -1,0 +1,384 @@
+/*-------------------------*/
+/*    Page Réalisations    */
+/*-------------------------*/
+
+/*------------*/
+/*    Fond    */
+/*------------*/
+body{
+	background-color : white;
+	width : 100%;
+	height : 100%;
+	margin : 0;
+	padding : 0;
+}
+
+
+/*-----------------------*/
+/*    Projet de stage    */
+/*-----------------------*/
+div.titre-stage{
+	margin-top : 0vw;
+	vertical-align : middle;
+	margin-left : 12.5vw;
+	margin-right : 10vw;
+	margin-bottom : 1%;
+	font-family : lucida sans;
+	font-size : 3.5vw;
+	z-index : 1;
+	position : relative;
+	text-align : center;
+}
+div#tableau-information-stage{
+	display : flex;
+	position : relative;
+	padding-top : 2.5vw;
+	font-family : lucida sans;
+	font-size : 1.25vw;
+}
+div.tableau-information-stage-gauche{
+	flex-grow: 1;
+	width : 7.5vw;
+	margin-left : 10vw;
+	margin-right : 4vw;
+}
+div.tableau-information-stage-milieu{
+	flex-grow: 1;
+	width : 10vw;
+	margin-left : -1vw;
+	margin-right : 2vw;
+}
+div.tableau-information-stage-droite{
+	flex-grow: 1;
+	width : 7.5vw;
+	margin-right : -2.5vw;
+}
+div.desciption-stage{
+	margin-top : 5vw;
+	vertical-align : middle;
+	margin-left : 10vw;
+	margin-right : 10vw;
+	margin-bottom : 10vw;
+	text-indent : 20px;
+	text-align : justify;
+	font-family : lucida sans;
+	font-size : 1.5vw;
+	z-index : 1;
+	position : relative;
+}
+nav#photo-stage-ligne1 ul li.photo-stage{
+	display : inline-block;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+	list-style-type : none;
+	vertical-align : middle;
+	margin-top : 7vw;
+}
+nav#photo-stage-ligne2 ul li.photo-stage{
+	display : inline-block;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+	list-style-type : none;
+	vertical-align : middle;
+	margin-top : 10vw;
+	margin-left : 3vw;
+}
+nav#photo-stage-ligne1{
+	padding-left : 1vw;
+	margin-left : 2.5vw;
+}
+nav#photo-stage-ligne2{
+	/* padding-left : 10vw; */
+	margin-left : 5vw;
+}
+div.img-stage{
+	vertical-align : middle;
+}
+div.texte-stage{
+	vertical-align : middle;
+	font-size : 1.25vw;
+	font-family : lucida sans;
+	text-align : center;
+}
+nav#photo-stage-ligne1 ul li.photo-stage div.testeur-rota1, div.testeur-rota2, div.testeur-rota3{
+	width : 25vw;
+	height :auto;
+	margin-top : -10vw;
+	/* margin-bottom : 8vw; */
+	margin-left : 0vw;
+}
+nav#photo-stage-ligne1 ul li.photo-stage div.testeur-rota3{
+	margin-top : -8vw;
+	margin-bottom : 8vw;
+	margin-left : 0vw;
+}
+nav#photo-stage-ligne2 ul li.photo-stage div.filtre-rc, div.ampli, div.transistor, div.transformateur{
+	width : 20vw;
+	height : auto;
+	margin-top : -15vw;
+	margin-bottom : 2.5vw;
+	margin-left : -2.5vw;
+}
+div.document-stage{
+	margin-top : -5vw;
+	vertical-align : middle;
+	margin-left : 45vw;
+	margin-right : 10vw;
+	margin-bottom : 2vw;
+	text-indent : 20px;
+	text-align : justify;
+	font-family : lucida sans;
+	font-size : 1vw;
+	z-index : 1;
+	position : relative;
+}
+div.transition{
+	background-color: black;
+	position : relative;
+	padding : 2vw;
+	margin-top : 0vw;
+	margin-bottom : 0%;
+}
+
+/*----------------------------------------*/
+/*    Projet Bracelet médical Connecté    */
+/*----------------------------------------*/
+div.titre-bracelet{
+	margin-top : 0vw;
+	vertical-align : middle;
+	margin-left : 25vw;
+	margin-bottom : 1%;
+	font-family : lucida sans;
+	font-size : 3.5vw;
+	z-index : 1;
+	position : relative;
+}
+div#tableau-information-bracelet{
+	display : flex;
+	position : relative;
+	padding-top : 2.5vw;
+	font-family : lucida sans;
+	font-size : 1.25vw;
+}
+div.tableau-information-bracelet-gauche{
+	flex-grow: 1;
+	width : 7vw;
+	margin-left : 15vw;
+	margin-right : 4vw;
+}
+div.tableau-information-bracelet-milieu{
+	flex-grow: 1;
+	width : 10vw;
+	margin-right : 1vw;
+}
+div.tableau-information-bracelet-droite{
+	flex-grow: 1;
+	width : 0vw;
+	margin-right : 12.5vw;
+}
+div.desciption-bracelet{
+	margin-top : 5vw;
+	vertical-align : middle;
+	margin-left : 10vw;
+	margin-right : 10vw;
+	margin-bottom : 10vw;
+	text-indent : 20px;
+	text-align : justify;
+	font-family : lucida sans;
+	font-size : 1.5vw;
+	z-index : 1;
+	position : relative;
+}
+nav#photo-bracelet-ligne2 ul li.photo-bracelet{
+	display : inline-block;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+	list-style-type : none;
+	vertical-align : middle;
+	margin-top : 10vw;
+	margin-left : 3vw;
+}
+nav#photo-bracelet-ligne2{
+	padding-left : 1vw;
+	margin-left : -1vw;
+}
+div.img-bracelet{
+	vertical-align : middle;
+}
+div.texte-bracelet{
+	vertical-align : middle;
+	font-size : 1.25vw;
+	font-family : lucida sans;
+	text-align : center;
+}
+nav#photo-bracelet-ligne2 ul li.photo-bracelet div.exigence, div.sysml, div.proteus, div.typon{
+	width : 19vw;
+	height : auto;
+	margin-top : -12.5vw;
+	margin-bottom : 2.5vw;
+}
+div.document-bracelet{
+	margin-top : -5vw;
+	vertical-align : middle;
+	margin-left : 45vw;
+	margin-right : 10vw;
+	margin-bottom : 2vw;
+	text-indent : 20px;
+	text-align : justify;
+	font-family : lucida sans;
+	font-size : 1vw;
+	z-index : 1;
+	position : relative;
+}
+div.transition{
+	background-color: black;
+	position : relative;
+	padding : 2vw;
+	margin-top : 0vw;
+	margin-bottom : 0%;
+}
+
+
+/*--------------------------------*/
+/*    Projet détéction faciale    */
+/*--------------------------------*/
+div.titre-detection{
+	margin-top : 0vw;
+	vertical-align : middle;
+	margin-left : 20vw;
+	margin-bottom : 1%;
+	font-family : lucida sans;
+	font-size : 3.5vw;
+	z-index : 1;
+	position : relative;
+}
+div#tableau-information-detection{
+	display : flex;
+	position : relative;
+	padding-top : 2.5vw;
+	font-family : lucida sans;
+	font-size : 1.25vw;
+}
+div.tableau-information-detection-gauche{
+	flex-grow: 1;
+	width : 7vw;
+	margin-left : 30vw;
+	margin-right : 0vw;
+}
+div.tableau-information-detection-milieu{
+	flex-grow: 1;
+	width : 10vw;
+	margin-right : 0vw;
+}
+div.tableau-information-detection-droite{
+	flex-grow: 1;
+	width : 0vw;
+	margin-right : 0vw;
+}
+div.desciption-detection{
+	margin-top : 5vw;
+	vertical-align : middle;
+	margin-left : 10vw;
+	margin-right : 10vw;
+	margin-bottom : 10vw;
+	text-indent : 20px;
+	text-align : justify;
+	font-family : lucida sans;
+	font-size : 1.5vw;
+	z-index : 1;
+	position : relative;
+}
+nav#photo-detection-ligne1 ul li.photo-detection{
+	display : inline-block;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+	list-style-type : none;
+	vertical-align : middle;
+	margin-top : 7vw;
+	margin-left : 2vw;
+}
+nav#photo-detection-ligne1{
+	padding-left : 1vw;
+	margin-left : 0vw;
+}
+div.img-detection{
+	vertical-align : middle;
+}
+div.texte-detection{
+	vertical-align : middle;
+	font-size : 1.25vw;
+	font-family : lucida sans;
+	text-align : center;
+}
+nav#photo-detection-ligne1 ul li.photo-detection div.code, div.image-test, div.resultat{
+	width : 20vw;
+	height : auto;
+	margin-top : -12.5vw;
+	margin-bottom : 2.5vw;
+	margin-left : 4vw;
+}
+div.document-detection{
+	margin-top : -5vw;
+	vertical-align : middle;
+	margin-left : 45vw;
+	margin-right : 10vw;
+	margin-bottom : 2vw;
+	text-indent : 20px;
+	text-align : justify;
+	font-family : lucida sans;
+	font-size : 1vw;
+	z-index : 1;
+	position : relative;
+}
+div.transition{
+	background-color: black;
+	position : relative;
+	padding : 2vw;
+	margin-top : 0vw;
+	margin-bottom : 0%;
+}
+
+
+/*---------------*/
+/*    Dessins    */
+/*---------------*/
+div.titre-dessin{
+	margin-top : 0vw;
+	vertical-align : middle;
+	margin-left : 42.5vw;
+	margin-bottom : 5vw;
+	font-family : lucida sans;
+	font-size : 3.5vw;
+	z-index : 1;
+	position : relative;
+}
+div.img-portrait{
+	vertical-align : middle;
+	margin-left : 29vw;
+	width : 40vw;
+	height : auto;
+}
+div.img-paysage{
+	vertical-align : middle;
+	margin-left : 24vw;
+	width : 50vw;
+	height : auto;
+}
+div.texte-dessin{
+	vertical-align : middle;
+	font-size : 1.5vw;
+	font-family : lucida sans;
+	text-align : center;
+	margin-bottom : 5vw;
+}
+div.transition{
+	background-color: black;
+	position : relative;
+	padding : 2vw;
+	margin-top : 0vw;
+	margin-bottom : 0%;
+}
+
+
+
+/*------------------*/
+/*   Pied de page   */
+/*------------------*/
+footer{
+	padding-top : 2.5vw;
+	padding-left : 40vw;
+	font-size : 1.25vw;
+	position : relative;
+}
